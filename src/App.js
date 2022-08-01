@@ -1,8 +1,21 @@
 import React from "react";
+import { BrowserRouter , Route, Routes } from 'react-router-dom'
 import "./assets/scss/style.scss";
+import LandingPage from "pages/LandingPage";
+
 
 function App() {
-  return <div className="App">hello world</div>;
+  return (
+    <div className="App">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<LandingPage />}></Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
 }
+
+
 
 export default App;
