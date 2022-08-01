@@ -5,3 +5,11 @@
 @each $color, $value in $grays {
   @include text-emphasis-variant(".text-gray-#{$color}", $value, true);
 }
+
+.btn{
+  border-radius: 4px;
+  min-height: 50px;
+  &.btn-shadow{
+    box-shadow: 0 8px 15px rgba($primary, 0.3)
+  }
+}
