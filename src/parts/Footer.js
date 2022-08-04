@@ -76,8 +76,8 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="row">
-          <div className="col text-center copyrights">
+        <div className="row copyrights">
+          <div className="col text-center ">
             Copyright 2020. All Rights Reserved, Staycation.
           </div>
         </div>
