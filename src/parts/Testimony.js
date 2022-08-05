@@ -18,7 +18,7 @@ export default function Testimony({ data }) {
                 src={data.imageUrl}
                 alt="Testimonial"
                 className="position-absolute"
-                style={{ zIndex: 2 }}
+                style={{ zIndex: 2, borderRadius: "15px 15px 100px 15px" }}
               />
               <img
                 src={TestimonyAccent}
