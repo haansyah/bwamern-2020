@@ -20,7 +20,7 @@ class LandingPage extends Component {
 
   render() {
     return (
-      <div>
+      <>
         <Header {...this.props}></Header>
         <Hero refMostPicked={this.refMostPicked} data={landingPage.hero} />
         <MostPicked
@@ -30,7 +30,7 @@ class LandingPage extends Component {
         <Categories data={landingPage.categories} />
         <Testimony data={landingPage.testimonial} />
         <Footer />
-      </div>
+      </>
     );
   }
 }

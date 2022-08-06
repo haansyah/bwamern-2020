@@ -16,7 +16,6 @@ export default function Hero(props) {
       behavior: "smooth",
     });
   }
-
   return (
     <Fade bottom>
       <section className="container pt-4">
